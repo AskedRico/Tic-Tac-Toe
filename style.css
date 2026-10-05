@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(33, 32, 51);
+    color: white;
+
+}
+
+h1{
+    color: aquamarine;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 10px 50px 30px;
+}
+.cella{
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: "Permanent Marker", cursive;
+    
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    margin: auto;
+    text-align: center;
+    
+}
+#bottom_box{
+    width: 225px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#bottom_box>button{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(38, 38, 49);
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    
+}
+#bottom_box>button:hover{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(127, 255, 212, 0.589);
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.X{
+    color: red;
+}
+.O{
+    color: lightskyblue;
+}
+.wincella{
+    border: 2px solid turquoise;
+    color: turquoise;
+}
+.draw{
+    border: 2px solid red;
+    color: red;
+}
